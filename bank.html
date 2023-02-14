@@ -14,5 +14,61 @@
         Welcome To <span class="font-bold text-sky-600">Bank Account!</span>
       </h1>
     </header>
+    <main>
+      <!-- Deposit, Withdraw and Balance Section -->
+      <section class="mt-12">
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+          <div class="bg-green-400 p-8 text-center rounded-xl">
+            <h4 class="text-3xl">Deposit</h4>
+            <h2 class="text-5xl">$00</h2>
+          </div>
+          <div class="bg-amber-400 p-8 text-center rounded-xl">
+            <h4 class="text-3xl">Withdraw</h4>
+            <h2 class="text-5xl">$00</h2>
+          </div>
+          <div class="bg-blue-400 p-8 text-center rounded-xl">
+            <h4 class="text-3xl">Balance</h4>
+            <h2 class="text-5xl">$3450</h2>
+          </div>
+        </div>
+      </section>
+      <!-- Deposit and Withdraw  -->
+      <section class="mt-12">
+        <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
+          <div class="bg-purple-400 p-8 rounded-xl">
+            <h4 class="text-3xl mb-5">Please Deposit</h4>
+            <input
+              class="w-9/12 block mb-3 px-2 py-1"
+              type="email"
+              name=""
+              id="user-email"
+              placeholder="Enter Your Deposit Amout"
+            />
+            <button
+              id="btn-submit"
+              class="bg-sky-600 hover:bg-sky-800 text-white font-medium px-8 py-2 rounded-lg mt-2"
+            >
+              Deposit
+            </button>
+          </div>
+          <div class="bg-purple-400 p-8 rounded-xl">
+            <h4 class="text-3xl mb-5">Please Withdraw</h4>
+            <input
+              class="w-9/12 block mb-3 px-2 py-1"
+              type="email"
+              name=""
+              id="user-email"
+              placeholder="Enter Your Withdraw Amount"
+            />
+            <button
+              id="btn-submit"
+              class="bg-sky-600 hover:bg-sky-800 text-white font-medium px-8 py-2 rounded-lg mt-2"
+            >
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
